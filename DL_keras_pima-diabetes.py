@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 # import libraries
 from numpy import loadtxt
@@ -29,15 +24,10 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 model.fit(X, y, epochs=150, batch_size=10)
 
 
-# In[ ]:
-
 
 # evaluate the keras model
 _, accuracy = model.evaluate(X, y)
 print('Accuracy: %.2f' % (accuracy*100))
-
-
-# In[ ]:
 
 
 # make class predictions with the model
