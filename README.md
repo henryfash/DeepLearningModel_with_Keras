@@ -1,6 +1,6 @@
 # A Simple Deep Learning Model with Keras
 
-## Pipeline
+### Pipeline
 
 1. Load Data <br>
 2. Define Keras Model<br>
